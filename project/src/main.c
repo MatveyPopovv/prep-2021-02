@@ -41,11 +41,6 @@ int main(int argc, const char **argv) {
 
     }
     printf("%s|%s|%s|%s", from, to, date, contenttipe);
-
-
-
-
-
     fclose(fin);
     return 0;
 }
