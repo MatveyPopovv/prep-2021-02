@@ -14,6 +14,7 @@ int main(int argc, const char **argv) {
     char to[100] ;
     char date[100] ;
     char contenttipe[100];
+    
     for (size_t i = 0; i < 11; i++){
 
         if (i==1){
