@@ -8,14 +8,12 @@ int main(int argc, const char **argv) {
     }
 
     const char *path_to_eml = argv[1];
-    puts(path_to_eml);
+    FILE *fin = fopen(path_to_eml, "r");
     char st1[100];
     char from[100];
     char to[100] ;
     char date[100] ;
     char contenttipe[100];
-    FILE *fin;
-    fin=fopen("8bitmime.eml", "r");
     for (size_t i = 0; i < 11; i++){
 
         if (i==1){
